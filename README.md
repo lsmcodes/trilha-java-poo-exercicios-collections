@@ -1,12 +1,12 @@
 # DIO - Trilha POO Java
 www.dio.me
 
-## Autora dos exercícios e repositório com a proposta original
+## Autora dos Exercícios e Repositório Original
 - [Camila Cavalcante](https://github.com/cami-la)
 - [Collections Java](https://github.com/cami-la/collections-java-api-2023)
 
 ## Java Collections Framework
-A plataforma Java fornecece o framework **Collections** que provê aos desenvolvedores uma arquitetura para representar manipular coleções. Uma coleção é um objeto que representa um grupo de objetos.
+A plataforma Java fornecece o framework `Collections` que provê aos desenvolvedores uma arquitetura para representar e manipular coleções. Uma coleção é um objeto que representa um grupo de objetos.
 
 ## Exercícios
 Este repositório contém exercícios que colocam em prática os seguintes temas:
@@ -19,7 +19,7 @@ Este repositório contém exercícios que colocam em prática os seguintes temas
 
 
 ## Hierarquia
-Esta é a hierarquia do framework Collections e apesar da interface **Map** não ser filha direta de **Collection**, ela também é considerada uma coleção por conta de sua função.
+Esta é a hierarquia do framework Collections e apesar da interface `Map` não ser filha direta de `Collection`, ela também é considerada uma coleção por conta de sua função.
 
 ```mermaid
 flowchart BT
