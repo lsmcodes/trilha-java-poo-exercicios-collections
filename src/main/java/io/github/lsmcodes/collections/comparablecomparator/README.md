@@ -1,7 +1,6 @@
 # Comparable x Comparator
-
 ## Comparable
-Esta interface impõe a definição de uma ordenação total dos objetos das classes que a implementam. A ordenação deve ser definida no método `compareTo` fornecido pela interface e passa a ser a `ordenação natural da classe`.
+Essa interface impõe a definição de uma ordenação total dos objetos das classes que a implementam. A ordenação deve ser definida no método `compareTo` fornecido pela interface e passa a ser a `ordenação natural da classe`.
 
 ```java
 // Uma classe 'Livro' que implementa Comparable

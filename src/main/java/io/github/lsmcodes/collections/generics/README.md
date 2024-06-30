@@ -1,15 +1,15 @@
 # Generic Types
-Um `tipo genérico` é uma classe genérica que é parametizada por tipos. A classe `Box` a seguir será modificada para exemplificar o conceito.
+Um `tipo genérico` é uma classe genérica que é parametrizada por tipos. A classe `Box` a seguir será modificada para exemplificar o conceito.
 
 ## Classe Simples Box
 Esta é uma classe não-genérica que opera com objetos de qualquer tipo.
 
 ```java
 public class Box {
-    private Object object;
-
-    public void set(Object object) { this.object = object; }
-    public Object get() { return object; }
+	private Object object;
+	
+	public void set(Object object) { this.object = object; }
+	public Object get() { return object; }
 }
 ```
 
@@ -20,11 +20,11 @@ O operador `<>` é chamado informalmente de `Diamond Operator`e é utilizado par
 
 ```java
 public class Box<T> {
-    // T significa "Tipo"
-    private T t;
+    	// T significa "Tipo"
+    	private T t;
 
-    public void set(T t) { this.t = t; }
-    public T get() { return t; }
+    	public void set(T t) { this.t = t; }
+    	public T get() { return t; }
 }
 ```
 
@@ -42,13 +42,9 @@ Por convenção os nomes de parâmetros de tipo são letras únicas e maiúscula
 Código que usa genéricos tem muitos benefícios sobre código não genérico:
 
 - `Segurança do tipo de dados`: o uso de generics garante que apenas objetos de um tipo específico possam ser utilizados, evitando erros de tipo.
-
 - `Código mais legível`: ao usar generics, podemos especificar o tipo de dados esperado ou retornado, o que torna o código mais fácil de entender e ler.
-
 - `Detecta erros mais cedo`: o compilador verifica se os tipos utilizados são corretos durante a compilação, ajudando a identificar erros de tipo antes da execução do programa.
-
 - `Reutilização de código`: com generics, é possível criar classes e métodos genéricos que funcionam com diferentes tipos de coleções, evitando a necessidade de duplicar código para cada tipo específico.
-
 - `Melhor desempenho`: o uso de generics pode melhorar o desempenho, pois evita a necessidade de conversões de tipo desnecessárias e permite que o compilador otimize o código com base no tipo especificado.
 
 ## Referências

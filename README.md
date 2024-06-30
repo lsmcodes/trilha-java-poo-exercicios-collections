@@ -1,12 +1,29 @@
 # DIO - Trilha POO Java
-www.dio.me
+<div style="display:inline-block">
+        <picture  title="Java">
+                <source height="40" width="40" media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/openjdk/000000">
+                <img height="40" width="40" src="https://cdn.simpleicons.org/openjdk/FFFFFF" />
+        </picture>
+        <picture  title="Apache Maven">
+                <source height="40" width="40" media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/apachemaven/000000">
+                <img height="40" width="40" src="https://cdn.simpleicons.org/apachemaven/FFFFFF" />
+        </picture>
+        <picture  title="Spring Boot">
+                <source height="40" width="40" media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/springboot/000000">
+                <img height="40" width="40" src="https://cdn.simpleicons.org/springboot/FFFFFF" />
+        </picture>
+        <picture  title="Mermaid">
+                <source height="40" width="40" media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/mermaid/000000">
+                <img height="40" width="40" src="https://cdn.simpleicons.org/mermaid/FFFFFF" />
+        </picture>
+</div>
 
 ## Autora dos Exercícios e Repositório Original
 - [Camila Cavalcante](https://github.com/cami-la)
 - [Collections Java](https://github.com/cami-la/collections-java-api-2023)
 
 ## Java Collections Framework
-A plataforma Java fornecece o framework `Collections` que provê aos desenvolvedores uma arquitetura para representar e manipular coleções. Uma coleção é um objeto que representa um grupo de objetos.
+A plataforma Java fornece o framework `Collections` que provê aos desenvolvedores uma arquitetura para representar e manipular coleções. Uma coleção é um objeto que representa um grupo de objetos.
 
 ## Exercícios
 Este repositório contém exercícios que colocam em prática os seguintes temas:
