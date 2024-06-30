@@ -88,7 +88,7 @@ public class ConjuntoConvidados {
                                         System.out.println("Há " + quantidadeDeConvidados + " convidado(s) registrados.");
                                         break;
                                 case "4":
-                                        // Exibir todos os convidadoss
+                                        // Exibir todos os convidados
                                         conjuntoConvidados.exibirConvidados();
                                         break;          
                                 default:

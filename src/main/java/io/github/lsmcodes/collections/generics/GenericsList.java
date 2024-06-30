@@ -14,7 +14,7 @@ public class GenericsList {
                 int entradas = scanner.nextInt();
                 scanner.nextLine();
 
-                // exemplo sem generics
+                // Exemplo sem generics
                 List semGenerics = new ArrayList();
 
                 System.out.println("\nDigite nomes um por um:");
@@ -23,7 +23,7 @@ public class GenericsList {
                         semGenerics.add(nome);
                 }
 
-                // exemplo com generics
+                // Exemplo com generics
                 List<Integer> comGenerics = new ArrayList<>();
 
                 System.out.println("\nDigite idades uma por uma:");
@@ -33,14 +33,14 @@ public class GenericsList {
                         comGenerics.add(idade);
                 }
 
-                // iterando sobre a lista sem generics
+                // Iterando sobre a lista sem generics
                 System.out.println("\nNomes:");
                 for (Object nome : semGenerics) {
-                        String nomeStr = (String) nome; // necessita de cast
+                        String nomeStr = (String) nome; // Necessita de cast
                         System.out.println(nomeStr);
                 }
 
-                // iterando sobre a lista com generics
+                // Iterando sobre a lista com generics
                 System.out.println("\nIdades:");
                 for (int idade : comGenerics) {
                         int idadeInt = idade;

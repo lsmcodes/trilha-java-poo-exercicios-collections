@@ -14,7 +14,7 @@ public class GenericsSet {
                 int entradas = scanner.nextInt();
                 scanner.nextLine();
 
-                // exemplo sem generics
+                // Exemplo sem generics
                 Set semGenerics = new HashSet();
 
                 System.out.println("\nDigite números ímpares inteiros um por um:");
@@ -27,7 +27,7 @@ public class GenericsSet {
                         }
                 }
 
-                // exemplo com generics
+                // Exemplo com generics
                 Set<Integer> comGenerics = new HashSet<>();
 
                 System.out.println("\nDigite números pares inteiros um por um:");
@@ -40,14 +40,14 @@ public class GenericsSet {
                         }
                 }
 
-                // iterando sobre o conjunto sem generics
+                // Iterando sobre o conjunto sem generics
                 System.out.println("\nNúmeros ímpares:");
                 for (Object numeroImpar : semGenerics) {
-                        int numero = (Integer) numeroImpar; // necessita de cast
+                        int numero = (Integer) numeroImpar; // Necessita de cast
                         System.out.println(numero);
                 }
 
-                // iterando sobre o conjunto com generics
+                // Iterando sobre o conjunto com generics
                 System.out.println("\nNúmeros pares:");
                 for (int numeroImpar : comGenerics) {
                         int numero = numeroImpar;

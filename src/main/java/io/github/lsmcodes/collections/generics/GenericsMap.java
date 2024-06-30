@@ -14,7 +14,7 @@ public class GenericsMap {
                 int quantidadeAlunos = scanner.nextInt();
                 scanner.nextLine();
 
-                // exemplo sem generics
+                // Exemplo sem generics
                 Map semGenerics = new HashMap();
 
                 for(int i = 0; i < quantidadeAlunos; i++) {
@@ -27,7 +27,7 @@ public class GenericsMap {
                         semGenerics.put(chave, nome);
                 }
 
-                // exemplo com generics
+                // Exemplo com generics
                 Map<String, Double> comGenerics = new HashMap<>();
 
                 for(Object alunoInfo : semGenerics.entrySet()) {
@@ -40,18 +40,18 @@ public class GenericsMap {
                         comGenerics.put(nome, nota);
                 }
 
-                // iterando sobre a mapa sem generics
+                // Iterando sobre a mapa sem generics
                 System.out.println("\nAlunos:");
                 for(Object alunoInfo : semGenerics.entrySet()) {
-                        Map.Entry entry = (Map.Entry) alunoInfo; // necessita de cast
+                        Map.Entry entry = (Map.Entry) alunoInfo; // Necessita de cast
 
                         System.out.println(entry.getKey() + " - " + entry.getValue());
                 }
 
-                // iterando sobre a mapa com generics
+                // Iterando sobre a mapa com generics
                 System.out.println("\nNotas:");
                 for(Map.Entry<String, Double> alunoInfo : comGenerics.entrySet()) {
-                        Map.Entry entry = alunoInfo;
+                        Map.Entry<String, Double> entry = alunoInfo;
 
                         System.out.println(entry.getKey() + " - " + entry.getValue());
                 }
